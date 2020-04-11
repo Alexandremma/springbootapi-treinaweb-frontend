@@ -1,13 +1,12 @@
 import React from 'react';
 
 import './global.css';
-import Profile from './pages/Profile';
+
+import Routes from './routes';
 
 function App() {
   return (
-    <div className="App">
-      <Profile />
-    </div>
+      <Routes />
   );
 }
 

@@ -1,0 +1,21 @@
+.profile-container {
+    width: 400px;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.nameList {
+    margin: 10px 0;
+    text-align: center;
+}
+
+li {
+    padding: 5px 0;
+    border: 1px solid black;
+}
+
+li:hover {
+    background: rgba(0, 247, 255, 0.15);
+}
